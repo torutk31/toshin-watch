@@ -1,0 +1,81 @@
+[
+  {
+    "id": "ifree-fang-plus",
+    "name": "iFreeNEXT FANG+インデックス",
+    "manager": "大和アセットマネジメント",
+    "fundSecCode": "04311181"
+  },
+  {
+    "id": "ifree-global-semiconductor",
+    "name": "iFreeNEXT 全世界半導体株インデックス",
+    "manager": "大和アセットマネジメント",
+    "fundSecCode": "04312257"
+  },
+  {
+    "id": "us-infrastructure-builder",
+    "name": "米国インフラ・ビルダー株式ファンド（為替ヘッジなし）",
+    "manager": "大和アセットマネジメント",
+    "fundSecCode": "0431C171"
+  },
+  {
+    "id": "itrust-ecoinnovation",
+    "name": "iTrustエコイノベーション",
+    "manager": "ピクテ",
+    "fundSecCode": "42311179"
+  },
+  {
+    "id": "tawara-focus-ai",
+    "name": "たわらノーロード フォーカス AI",
+    "manager": "アセットマネジメントOne",
+    "fundSecCode": "47312201"
+  },
+  {
+    "id": "franklin-us-municipal",
+    "name": "フランクリン・テンプルトン・アメリカ地方債ファンド（為替ヘッジなし）（隔月分配）",
+    "manager": "フランクリン・テンプルトン",
+    "fundSecCode": "5331123A",
+    "selectionNote": "ご指定名には複数の為替ヘッジ・分配型があります。このサンプルでは「為替ヘッジなし（隔月分配）」を設定しています。"
+  },
+  {
+    "id": "inbound-japan",
+    "name": "インバウンド関連日本株ファンド",
+    "manager": "三井住友トラスト・アセットマネジメント",
+    "fundSecCode": "64311159"
+  },
+  {
+    "id": "innovation-index-ai",
+    "name": "イノベーション・インデックス・AI",
+    "manager": "三井住友DSアセットマネジメント",
+    "fundSecCode": "79314186"
+  },
+  {
+    "id": "harvest-asia-frontier",
+    "name": "ハーベスト アジア フロンティア株式ファンド",
+    "manager": "SBIアセットマネジメント",
+    "fundSecCode": "8931111A"
+  },
+  {
+    "id": "sbi-japan-asia-fintech",
+    "name": "SBI日本・アジアフィンテック株式ファンド",
+    "manager": "SBIアセットマネジメント",
+    "fundSecCode": "89311174"
+  },
+  {
+    "id": "sbi-ishares-nikkei225",
+    "name": "SBI・iシェアーズ・日経225インデックス・ファンド",
+    "manager": "SBIアセットマネジメント",
+    "fundSecCode": "89311237"
+  },
+  {
+    "id": "sbi-ishares-india",
+    "name": "SBI・iシェアーズ・インド株式インデックス・ファンド",
+    "manager": "SBIアセットマネジメント",
+    "fundSecCode": "89311239"
+  },
+  {
+    "id": "sbi-ishares-gold-unhedged",
+    "name": "SBI・iシェアーズ・ゴールドファンド（為替ヘッジなし）",
+    "manager": "SBIアセットマネジメント",
+    "fundSecCode": "8931A236"
+  }
+]

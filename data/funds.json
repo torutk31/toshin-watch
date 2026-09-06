@@ -1,0 +1,440 @@
+{
+  "generatedAt": "2026-08-31T22:06:33+09:00",
+  "timezone": "Asia/Tokyo",
+  "source": {
+    "name": "SBI証券 投資信託 基準価額",
+    "note": "基準価額・前日比・純資産総額はSBI証券ページ内でウエルスアドバイザー社提供と表示されています。前月・前年は同日の基準価額がない場合、その直前の掲載日を比較対象とします。"
+  },
+  "funds": [
+    {
+      "id": "ifree-fang-plus",
+      "name": "iFreeNEXT FANG+インデックス",
+      "manager": "大和アセットマネジメント",
+      "fundSecCode": "04311181",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 101309,
+        "dailyChange": 1103,
+        "dailyPercent": 1.1
+      },
+      "monthComparison": {
+        "change": 9504,
+        "percent": 10.35,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 91805
+      },
+      "yearComparison": {
+        "change": 23863,
+        "percent": 30.81,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 77446
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04311181",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04311181"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04311181"
+      }
+    },
+    {
+      "id": "ifree-global-semiconductor",
+      "name": "iFreeNEXT 全世界半導体株インデックス",
+      "manager": "大和アセットマネジメント",
+      "fundSecCode": "04312257",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 17061,
+        "dailyChange": -407,
+        "dailyPercent": -2.33
+      },
+      "monthComparison": {
+        "change": 1082,
+        "percent": 6.77,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 15979
+      },
+      "yearComparison": {
+        "change": 7058,
+        "percent": 70.56,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 10003
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04312257",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04312257"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04312257"
+      }
+    },
+    {
+      "id": "us-infrastructure-builder",
+      "name": "米国インフラ・ビルダー株式ファンド（為替ヘッジなし）",
+      "manager": "大和アセットマネジメント",
+      "fundSecCode": "0431C171",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 22108,
+        "dailyChange": -413,
+        "dailyPercent": -1.83
+      },
+      "monthComparison": {
+        "change": -970,
+        "percent": -4.2,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 23078
+      },
+      "yearComparison": {
+        "change": 3503,
+        "percent": 18.83,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 18605
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=0431C171",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=0431C171"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=0431C171"
+      }
+    },
+    {
+      "id": "itrust-ecoinnovation",
+      "name": "iTrustエコイノベーション",
+      "manager": "ピクテ",
+      "fundSecCode": "42311179",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 38417,
+        "dailyChange": -533,
+        "dailyPercent": -1.37
+      },
+      "monthComparison": {
+        "change": 748,
+        "percent": 1.99,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 37669
+      },
+      "yearComparison": {
+        "change": 12355,
+        "percent": 47.41,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 26062
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=42311179",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=42311179"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=42311179"
+      }
+    },
+    {
+      "id": "tawara-focus-ai",
+      "name": "たわらノーロード フォーカス AI",
+      "manager": "アセットマネジメントOne",
+      "fundSecCode": "47312201",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 49818,
+        "dailyChange": 311,
+        "dailyPercent": 0.63
+      },
+      "monthComparison": {
+        "change": 3067,
+        "percent": 6.56,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 46751
+      },
+      "yearComparison": {
+        "change": 18063,
+        "percent": 56.88,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 31755
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=47312201",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=47312201"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=47312201"
+      }
+    },
+    {
+      "id": "franklin-us-municipal",
+      "name": "フランクリン・テンプルトン・アメリカ地方債ファンド（為替ヘッジなし）（隔月分配）",
+      "manager": "フランクリン・テンプルトン",
+      "fundSecCode": "5331123A",
+      "selectionNote": "ご指定名には複数の為替ヘッジ・分配型があります。このサンプルでは「為替ヘッジなし（隔月分配）」を設定しています。",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 11511,
+        "dailyChange": 9,
+        "dailyPercent": 0.08
+      },
+      "monthComparison": {
+        "change": -45,
+        "percent": -0.39,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 11556
+      },
+      "yearComparison": {
+        "change": 808,
+        "percent": 7.55,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 10703
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=5331123A",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=5331123A"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=5331123A"
+      }
+    },
+    {
+      "id": "inbound-japan",
+      "name": "インバウンド関連日本株ファンド",
+      "manager": "三井住友トラスト・アセットマネジメント",
+      "fundSecCode": "64311159",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 23398,
+        "dailyChange": -9,
+        "dailyPercent": -0.04
+      },
+      "monthComparison": {
+        "change": 798,
+        "percent": 3.53,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 22600
+      },
+      "yearComparison": {
+        "change": 1966,
+        "percent": 9.17,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 21432
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=64311159",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=64311159"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=64311159"
+      }
+    },
+    {
+      "id": "innovation-index-ai",
+      "name": "イノベーション・インデックス・AI",
+      "manager": "三井住友DSアセットマネジメント",
+      "fundSecCode": "79314186",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 69373,
+        "dailyChange": -561,
+        "dailyPercent": -0.8
+      },
+      "monthComparison": {
+        "change": 5837,
+        "percent": 9.19,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 63536
+      },
+      "yearComparison": {
+        "change": 23655,
+        "percent": 51.74,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 45718
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=79314186",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=79314186"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=79314186"
+      }
+    },
+    {
+      "id": "harvest-asia-frontier",
+      "name": "ハーベスト アジア フロンティア株式ファンド",
+      "manager": "SBIアセットマネジメント",
+      "fundSecCode": "8931111A",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 24927,
+        "dailyChange": 98,
+        "dailyPercent": 0.39
+      },
+      "monthComparison": {
+        "change": 2211,
+        "percent": 9.73,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 22716
+      },
+      "yearComparison": {
+        "change": 3974,
+        "percent": 18.97,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 20953
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931111A",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931111A"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931111A"
+      }
+    },
+    {
+      "id": "sbi-japan-asia-fintech",
+      "name": "SBI日本・アジアフィンテック株式ファンド",
+      "manager": "SBIアセットマネジメント",
+      "fundSecCode": "89311174",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 24323,
+        "dailyChange": -68,
+        "dailyPercent": -0.28
+      },
+      "monthComparison": {
+        "change": 1140,
+        "percent": 4.92,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 23183
+      },
+      "yearComparison": {
+        "change": 363,
+        "percent": 1.52,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 23960
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311174",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311174"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311174"
+      }
+    },
+    {
+      "id": "sbi-ishares-nikkei225",
+      "name": "SBI・iシェアーズ・日経225インデックス・ファンド",
+      "manager": "SBIアセットマネジメント",
+      "fundSecCode": "89311237",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 21375,
+        "dailyChange": -4,
+        "dailyPercent": -0.02
+      },
+      "monthComparison": {
+        "change": 603,
+        "percent": 2.9,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 20772
+      },
+      "yearComparison": {
+        "change": 7755,
+        "percent": 56.94,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 13620
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311237",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311237"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311237"
+      }
+    },
+    {
+      "id": "sbi-ishares-india",
+      "name": "SBI・iシェアーズ・インド株式インデックス・ファンド",
+      "manager": "SBIアセットマネジメント",
+      "fundSecCode": "89311239",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 10679,
+        "dailyChange": -6,
+        "dailyPercent": -0.06
+      },
+      "monthComparison": {
+        "change": -28,
+        "percent": -0.26,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 10707
+      },
+      "yearComparison": {
+        "change": -163,
+        "percent": -1.5,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 10842
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311239",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311239"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311239"
+      }
+    },
+    {
+      "id": "sbi-ishares-gold-unhedged",
+      "name": "SBI・iシェアーズ・ゴールドファンド（為替ヘッジなし）",
+      "manager": "SBIアセットマネジメント",
+      "fundSecCode": "8931A236",
+      "status": "ok",
+      "latest": {
+        "date": "2026/08/31",
+        "value": 26129,
+        "dailyChange": -119,
+        "dailyPercent": -0.45
+      },
+      "monthComparison": {
+        "change": 2510,
+        "percent": 10.63,
+        "referenceDate": "2026/07/31",
+        "referenceValue": 23619
+      },
+      "yearComparison": {
+        "change": 8092,
+        "percent": 44.86,
+        "referenceDate": "2025/08/29",
+        "referenceValue": 18037
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931A236",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931A236"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931A236"
+      }
+    }
+  ]
+}

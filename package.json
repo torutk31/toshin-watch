@@ -1,0 +1,13 @@
+{
+  "name": "toshin-watch",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SBI証券の公開基準価額ページをもとにした投信ウォッチページ",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "update": "node scripts/update-funds.mjs"
+  }
+}

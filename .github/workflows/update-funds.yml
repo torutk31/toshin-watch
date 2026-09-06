@@ -1,0 +1,30 @@
+name: 投信データを更新
+
+on:
+  schedule:
+    # GitHub Actions の cron は UTC。20:00 UTC = 翌日 05:00 JST。
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリを取得
+        uses: actions/checkout@v4
+      - name: Node.js を設定
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 基準価額JSONを更新
+        run: node scripts/update-funds.mjs
+      - name: 変更をコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/funds.json
+          git diff --cached --quiet || git commit -m "chore: 投信基準価額を更新"
+          git push

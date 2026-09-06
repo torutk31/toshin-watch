@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b3558">
+  <title>投信ウォッチ</title>
+  <style>
+    :root { color-scheme: light; --navy:#0b3558; --blue:#0e639c; --bg:#f3f7fa; --line:#d7e1e8; --muted:#617384; --up:#b42318; --down:#067647; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:#172b3a; font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic UI",sans-serif; line-height:1.45; }
+    .wrap { width:min(1180px,100%); margin:0 auto; padding:20px max(16px, env(safe-area-inset-right)) 36px max(16px, env(safe-area-inset-left)); }
+    header { color:#fff; background:linear-gradient(135deg,#092941,#0f5f8d); padding:26px 0 22px; }
+    header .wrap { padding-top:0; padding-bottom:0; }
+    h1 { margin:0; font-size:clamp(1.45rem,4vw,2rem); letter-spacing:.03em; }
+    .subtitle { margin:5px 0 0; font-size:.9rem; opacity:.85; }
+    .status { margin:18px 0; display:flex; align-items:center; gap:10px; flex-wrap:wrap; font-size:.9rem; }
+    .pill { display:inline-block; padding:3px 9px; border-radius:99px; background:#e4f2fa; color:#07527d; font-weight:700; }
+    .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:12px; background:#fff; box-shadow:0 3px 14px #14344b0c; }
+    table { width:100%; min-width:850px; border-collapse:collapse; }
+    thead { background:#eaf3f8; color:#183b56; }
+    th, td { padding:12px 14px; border-bottom:1px solid var(--line); text-align:right; white-space:nowrap; font-size:.92rem; }
+    th { font-size:.8rem; letter-spacing:.02em; }
+    th:first-child, td:first-child { width:33%; text-align:left; white-space:normal; }
+    tbody tr:last-child td { border-bottom:0; }
+    tbody tr:hover { background:#f8fbfd; }
+    .fund-name { font-weight:700; color:#102f48; }
+    .manager { display:block; margin-top:2px; color:var(--muted); font-size:.76rem; }
+    .date { display:block; margin-top:3px; color:var(--muted); font-size:.74rem; }
+    .change { font-variant-numeric:tabular-nums; font-weight:700; }
+    .up { color:var(--up); } .down { color:var(--down); } .flat { color:var(--muted); }
+    .percent { font-size:.74rem; font-weight:500; margin-left:3px; }
+    .links { display:flex; justify-content:flex-end; gap:8px; }
+    a.button { display:inline-block; border:1px solid #96bbd0; color:#07527d; padding:5px 8px; border-radius:6px; text-decoration:none; font-size:.78rem; font-weight:700; }
+    a.button:hover { background:#edf7fc; }
+    .notice, footer { margin-top:18px; color:#526a7d; font-size:.78rem; }
+    .notice { padding:12px 14px; background:#fff; border-left:4px solid #57a3c9; border-radius:4px; }
+    .error { color:#a61b1b; font-weight:700; }
+    @media (max-width: 640px) {
+      .wrap { padding-top:16px; }
+      .table-wrap { margin-right:-16px; margin-left:-16px; border-radius:0; border-right:0; border-left:0; }
+      table { min-width:790px; }
+      th, td { padding:10px 11px; font-size:.85rem; }
+      .status { margin:14px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>投信ウォッチ</h1>
+      <p class="subtitle">基準価額の定点確認（毎朝5:00 JST 更新予定）</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="status" id="status" aria-live="polite">データを読み込み中です…</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>銘柄</th>
+            <th>直近基準価額</th>
+            <th>前日比</th>
+            <th>前月同日比</th>
+            <th>前年同日比</th>
+            <th>SBI証券</th>
+          </tr>
+        </thead>
+        <tbody id="fundRows"></tbody>
+      </table>
+    </div>
+    <p class="notice" id="sourceNote"></p>
+    <footer>投資信託は価格変動リスクを伴います。このページは情報確認用のサンプルであり、投資判断を勧誘・推奨するものではありません。</footer>
+  </main>
+  <script>
+    const yen = new Intl.NumberFormat('ja-JP');
+    const signedYen = (value) => value === null || value === undefined ? '—' : `${value > 0 ? '+' : ''}${yen.format(value)}円`;
+    const cssClass = (value) => value > 0 ? 'up' : value < 0 ? 'down' : 'flat';
+    const comparison = (item) => {
+      if (!item) return '—';
+      return `<span class="change ${cssClass(item.change)}">${signedYen(item.change)}<span class="percent">(${item.percent > 0 ? '+' : ''}${item.percent}%)</span></span><span class="date">比較: ${item.referenceDate}</span>`;
+    };
+    const row = (fund) => {
+      if (!fund.latest) {
+        return `<tr><td><span class="fund-name">${fund.name}</span><span class="manager">${fund.manager}</span></td><td colspan="5" class="error">更新待ち${fund.updateError ? `：${fund.updateError}` : ''}</td></tr>`;
+      }
+      return `<tr>
+        <td><span class="fund-name">${fund.name}</span><span class="manager">${fund.manager}</span>${fund.selectionNote ? `<span class="date">※${fund.selectionNote}</span>` : ''}</td>
+        <td><strong>${yen.format(fund.latest.value)}円</strong><span class="date">${fund.latest.date}</span></td>
+        <td><span class="change ${cssClass(fund.latest.dailyChange)}">${signedYen(fund.latest.dailyChange)}<span class="percent">(${fund.latest.dailyPercent > 0 ? '+' : ''}${fund.latest.dailyPercent}%)</span></span></td>
+        <td>${comparison(fund.monthComparison)}</td>
+        <td>${comparison(fund.yearComparison)}</td>
+        <td><div class="links"><a class="button" href="${fund.links.detail}" target="_blank" rel="noopener">詳細・履歴</a><a class="button" href="${fund.links.chart}" target="_blank" rel="noopener">チャート</a></div></td>
+      </tr>`;
+    };
+    fetch('./data/funds.json', { cache: 'no-store' })
+      .then((response) => { if (!response.ok) throw new Error('データJSONを取得できませんでした'); return response.json(); })
+      .then((data) => {
+        document.querySelector('#fundRows').innerHTML = data.funds.map(row).join('');
+        document.querySelector('#status').innerHTML = `<span class="pill">${data.funds.length}本</span> 最終更新: ${data.generatedAt ?? '初回更新前'}（${data.timezone ?? 'Asia/Tokyo'}）`;
+        document.querySelector('#sourceNote').textContent = `出典：${data.source.name}。${data.source.note}`;
+      })
+      .catch((error) => {
+        document.querySelector('#status').innerHTML = `<span class="error">${error.message}</span>`;
+        document.querySelector('#sourceNote').textContent = 'READMEの手順に従い、ローカルWebサーバーまたはGitHub Pages上で開いてください。';
+      });
+  </script>
+</body>
+</html>
