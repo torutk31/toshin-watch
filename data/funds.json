@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T07:23:23+09:00",
+  "generatedAt": "2026-09-10T07:17:17+09:00",
   "timezone": "Asia/Tokyo",
   "source": {
     "name": "SBI証券 投資信託 基準価額",
@@ -13,22 +13,22 @@
       "fundSecCode": "04311181",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 96924,
-        "dailyChange": -1394,
-        "dailyPercent": -1.42
+        "date": "2026/09/09",
+        "value": 96011,
+        "dailyChange": -913,
+        "dailyPercent": -0.94
       },
       "monthComparison": {
-        "change": -1408,
-        "percent": -1.43,
+        "change": -2321,
+        "percent": -2.36,
         "referenceDate": "2026/08/07",
         "referenceValue": 98332
       },
       "yearComparison": {
-        "change": 17942,
-        "percent": 22.72,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 78982
+        "change": 16840,
+        "percent": 21.27,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 79171
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04311181",
@@ -46,22 +46,22 @@
       "fundSecCode": "04312257",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 16958,
-        "dailyChange": -117,
-        "dailyPercent": -0.69
+        "date": "2026/09/09",
+        "value": 16934,
+        "dailyChange": -24,
+        "dailyPercent": -0.14
       },
       "monthComparison": {
-        "change": -108,
-        "percent": -0.63,
+        "change": -132,
+        "percent": -0.77,
         "referenceDate": "2026/08/07",
         "referenceValue": 17066
       },
       "yearComparison": {
-        "change": 6920,
-        "percent": 68.94,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 10038
+        "change": 6775,
+        "percent": 66.69,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 10159
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=04312257",
@@ -79,22 +79,22 @@
       "fundSecCode": "0431C171",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 21448,
-        "dailyChange": -307,
-        "dailyPercent": -1.41
+        "date": "2026/09/09",
+        "value": 21593,
+        "dailyChange": 145,
+        "dailyPercent": 0.68
       },
       "monthComparison": {
-        "change": -2196,
-        "percent": -9.29,
+        "change": -2051,
+        "percent": -8.67,
         "referenceDate": "2026/08/07",
         "referenceValue": 23644
       },
       "yearComparison": {
-        "change": 2891,
-        "percent": 15.58,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 18557
+        "change": 3171,
+        "percent": 17.21,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 18422
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=0431C171",
@@ -112,22 +112,22 @@
       "fundSecCode": "42311179",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 36737,
-        "dailyChange": -379,
-        "dailyPercent": -1.02
+        "date": "2026/09/09",
+        "value": 36727,
+        "dailyChange": -10,
+        "dailyPercent": -0.03
       },
       "monthComparison": {
-        "change": -2648,
-        "percent": -6.72,
+        "change": -2658,
+        "percent": -6.75,
         "referenceDate": "2026/08/07",
         "referenceValue": 39385
       },
       "yearComparison": {
-        "change": 10718,
-        "percent": 41.19,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 26019
+        "change": 10726,
+        "percent": 41.25,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 26001
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=42311179",
@@ -145,22 +145,22 @@
       "fundSecCode": "47312201",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 48042,
-        "dailyChange": -840,
-        "dailyPercent": -1.72
+        "date": "2026/09/09",
+        "value": 47715,
+        "dailyChange": -327,
+        "dailyPercent": -0.68
       },
       "monthComparison": {
-        "change": -357,
-        "percent": -0.74,
+        "change": -684,
+        "percent": -1.41,
         "referenceDate": "2026/08/07",
         "referenceValue": 48399
       },
       "yearComparison": {
-        "change": 15705,
-        "percent": 48.57,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 32337
+        "change": 15353,
+        "percent": 47.44,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 32362
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=47312201",
@@ -179,22 +179,22 @@
       "selectionNote": "ご指定名には複数の為替ヘッジ・分配型があります。このサンプルでは「為替ヘッジなし（隔月分配）」を設定しています。",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 11042,
-        "dailyChange": -156,
-        "dailyPercent": -1.39
+        "date": "2026/09/09",
+        "value": 11036,
+        "dailyChange": -6,
+        "dailyPercent": -0.05
       },
       "monthComparison": {
-        "change": -372,
-        "percent": -3.26,
+        "change": -378,
+        "percent": -3.31,
         "referenceDate": "2026/08/07",
         "referenceValue": 11414
       },
       "yearComparison": {
-        "change": 113,
-        "percent": 1.03,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 10929
+        "change": 144,
+        "percent": 1.32,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 10892
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=5331123A",
@@ -212,22 +212,22 @@
       "fundSecCode": "64311159",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 22253,
-        "dailyChange": -421,
-        "dailyPercent": -1.86
+        "date": "2026/09/09",
+        "value": 22121,
+        "dailyChange": -132,
+        "dailyPercent": -0.59
       },
       "monthComparison": {
-        "change": -700,
-        "percent": -3.05,
+        "change": -832,
+        "percent": -3.62,
         "referenceDate": "2026/08/07",
         "referenceValue": 22953
       },
       "yearComparison": {
-        "change": 607,
-        "percent": 2.8,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 21646
+        "change": 532,
+        "percent": 2.46,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 21589
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=64311159",
@@ -245,22 +245,22 @@
       "fundSecCode": "79314186",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 68352,
-        "dailyChange": -818,
-        "dailyPercent": -1.18
+        "date": "2026/09/09",
+        "value": 68725,
+        "dailyChange": 373,
+        "dailyPercent": 0.55
       },
       "monthComparison": {
-        "change": 665,
-        "percent": 0.98,
+        "change": 1038,
+        "percent": 1.53,
         "referenceDate": "2026/08/07",
         "referenceValue": 67687
       },
       "yearComparison": {
-        "change": 22258,
-        "percent": 48.29,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 46094
+        "change": 22614,
+        "percent": 49.04,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 46111
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=79314186",
@@ -278,22 +278,22 @@
       "fundSecCode": "8931111A",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 23685,
-        "dailyChange": -550,
-        "dailyPercent": -2.27
+        "date": "2026/09/09",
+        "value": 23686,
+        "dailyChange": 1,
+        "dailyPercent": 0
       },
       "monthComparison": {
-        "change": 45,
+        "change": 46,
         "percent": 0.19,
         "referenceDate": "2026/08/07",
         "referenceValue": 23640
       },
       "yearComparison": {
-        "change": 2639,
-        "percent": 12.54,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 21046
+        "change": 2737,
+        "percent": 13.07,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 20949
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931111A",
@@ -311,22 +311,22 @@
       "fundSecCode": "89311174",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 23666,
-        "dailyChange": -170,
-        "dailyPercent": -0.71
+        "date": "2026/09/09",
+        "value": 23388,
+        "dailyChange": -278,
+        "dailyPercent": -1.17
       },
       "monthComparison": {
-        "change": 240,
-        "percent": 1.02,
+        "change": -38,
+        "percent": -0.16,
         "referenceDate": "2026/08/07",
         "referenceValue": 23426
       },
       "yearComparison": {
-        "change": -341,
-        "percent": -1.42,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 24007
+        "change": -563,
+        "percent": -2.35,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 23951
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311174",
@@ -344,22 +344,22 @@
       "fundSecCode": "89311237",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 21065,
-        "dailyChange": -325,
-        "dailyPercent": -1.52
+        "date": "2026/09/09",
+        "value": 20998,
+        "dailyChange": -67,
+        "dailyPercent": -0.32
       },
       "monthComparison": {
-        "change": -112,
-        "percent": -0.53,
+        "change": -179,
+        "percent": -0.85,
         "referenceDate": "2026/08/07",
         "referenceValue": 21177
       },
       "yearComparison": {
-        "change": 7149,
-        "percent": 51.37,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 13916
+        "change": 7127,
+        "percent": 51.38,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 13871
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311237",
@@ -377,22 +377,22 @@
       "fundSecCode": "89311239",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 10286,
-        "dailyChange": -215,
-        "dailyPercent": -2.05
+        "date": "2026/09/09",
+        "value": 10218,
+        "dailyChange": -68,
+        "dailyPercent": -0.66
       },
       "monthComparison": {
-        "change": -483,
-        "percent": -4.49,
+        "change": -551,
+        "percent": -5.12,
         "referenceDate": "2026/08/07",
         "referenceValue": 10769
       },
       "yearComparison": {
-        "change": -679,
-        "percent": -6.19,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 10965
+        "change": -751,
+        "percent": -6.85,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 10969
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=89311239",
@@ -410,22 +410,22 @@
       "fundSecCode": "8931A236",
       "status": "ok",
       "latest": {
-        "date": "2026/09/08",
-        "value": 24311,
-        "dailyChange": -497,
-        "dailyPercent": -2
+        "date": "2026/09/09",
+        "value": 24259,
+        "dailyChange": -52,
+        "dailyPercent": -0.21
       },
       "monthComparison": {
-        "change": 148,
-        "percent": 0.61,
+        "change": 96,
+        "percent": 0.4,
         "referenceDate": "2026/08/07",
         "referenceValue": 24163
       },
       "yearComparison": {
-        "change": 5113,
-        "percent": 26.63,
-        "referenceDate": "2025/09/08",
-        "referenceValue": 19198
+        "change": 4957,
+        "percent": 25.68,
+        "referenceDate": "2025/09/09",
+        "referenceValue": 19302
       },
       "links": {
         "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=8931A236",
