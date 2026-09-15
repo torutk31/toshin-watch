@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T07:57:58+09:00",
+  "generatedAt": "2026-09-16T07:43:21+09:00",
   "timezone": "Asia/Tokyo",
   "source": {
     "name": "SBI証券 投資信託 基準価額",
@@ -13,20 +13,20 @@
       "fundSecCode": "04311181",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 96194,
-        "dailyChange": 264,
-        "dailyPercent": 0.28
+        "date": "2026/09/15",
+        "value": 97131,
+        "dailyChange": 937,
+        "dailyPercent": 0.97
       },
       "monthComparison": {
-        "change": -4842,
-        "percent": -4.79,
+        "change": -3905,
+        "percent": -3.86,
         "referenceDate": "2026/08/14",
         "referenceValue": 101036
       },
       "yearComparison": {
-        "change": 16597,
-        "percent": 20.85,
+        "change": 17534,
+        "percent": 22.03,
         "referenceDate": "2025/09/12",
         "referenceValue": 79597
       },
@@ -46,20 +46,20 @@
       "fundSecCode": "04312257",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 16556,
-        "dailyChange": -98,
-        "dailyPercent": -0.59
+        "date": "2026/09/15",
+        "value": 16000,
+        "dailyChange": -556,
+        "dailyPercent": -3.36
       },
       "monthComparison": {
-        "change": -1195,
-        "percent": -6.73,
+        "change": -1751,
+        "percent": -9.86,
         "referenceDate": "2026/08/14",
         "referenceValue": 17751
       },
       "yearComparison": {
-        "change": 6030,
-        "percent": 57.29,
+        "change": 5474,
+        "percent": 52,
         "referenceDate": "2025/09/12",
         "referenceValue": 10526
       },
@@ -79,20 +79,20 @@
       "fundSecCode": "0431C171",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 21450,
-        "dailyChange": 363,
-        "dailyPercent": 1.72
+        "date": "2026/09/15",
+        "value": 20819,
+        "dailyChange": -631,
+        "dailyPercent": -2.94
       },
       "monthComparison": {
-        "change": -2551,
-        "percent": -10.63,
+        "change": -3182,
+        "percent": -13.26,
         "referenceDate": "2026/08/14",
         "referenceValue": 24001
       },
       "yearComparison": {
-        "change": 2688,
-        "percent": 14.33,
+        "change": 2057,
+        "percent": 10.96,
         "referenceDate": "2025/09/12",
         "referenceValue": 18762
       },
@@ -112,20 +112,20 @@
       "fundSecCode": "42311179",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 36371,
-        "dailyChange": 267,
-        "dailyPercent": 0.74
+        "date": "2026/09/15",
+        "value": 35176,
+        "dailyChange": -1195,
+        "dailyPercent": -3.29
       },
       "monthComparison": {
-        "change": -4045,
-        "percent": -10.01,
+        "change": -5240,
+        "percent": -12.97,
         "referenceDate": "2026/08/14",
         "referenceValue": 40416
       },
       "yearComparison": {
-        "change": 10448,
-        "percent": 40.3,
+        "change": 9253,
+        "percent": 35.69,
         "referenceDate": "2025/09/12",
         "referenceValue": 25923
       },
@@ -145,20 +145,20 @@
       "fundSecCode": "47312201",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 47101,
-        "dailyChange": 123,
-        "dailyPercent": 0.26
+        "date": "2026/09/15",
+        "value": 47487,
+        "dailyChange": 386,
+        "dailyPercent": 0.82
       },
       "monthComparison": {
-        "change": -2502,
-        "percent": -5.04,
+        "change": -2116,
+        "percent": -4.27,
         "referenceDate": "2026/08/14",
         "referenceValue": 49603
       },
       "yearComparison": {
-        "change": 14371,
-        "percent": 43.91,
+        "change": 14757,
+        "percent": 45.09,
         "referenceDate": "2025/09/12",
         "referenceValue": 32730
       },
@@ -179,20 +179,20 @@
       "selectionNote": "ご指定名には複数の為替ヘッジ・分配型があります。このサンプルでは「為替ヘッジなし（隔月分配）」を設定しています。",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 10909,
-        "dailyChange": -77,
-        "dailyPercent": -0.7
+        "date": "2026/09/15",
+        "value": 10911,
+        "dailyChange": 2,
+        "dailyPercent": 0.02
       },
       "monthComparison": {
-        "change": -575,
-        "percent": -5.01,
+        "change": -573,
+        "percent": -4.99,
         "referenceDate": "2026/08/14",
         "referenceValue": 11484
       },
       "yearComparison": {
-        "change": 6,
-        "percent": 0.06,
+        "change": 8,
+        "percent": 0.07,
         "referenceDate": "2025/09/12",
         "referenceValue": 10903
       },
@@ -212,20 +212,20 @@
       "fundSecCode": "64311159",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 22310,
-        "dailyChange": 424,
-        "dailyPercent": 1.94
+        "date": "2026/09/15",
+        "value": 22182,
+        "dailyChange": -128,
+        "dailyPercent": -0.57
       },
       "monthComparison": {
-        "change": -1310,
-        "percent": -5.55,
+        "change": -1438,
+        "percent": -6.09,
         "referenceDate": "2026/08/14",
         "referenceValue": 23620
       },
       "yearComparison": {
-        "change": 516,
-        "percent": 2.37,
+        "change": 388,
+        "percent": 1.78,
         "referenceDate": "2025/09/12",
         "referenceValue": 21794
       },
@@ -245,20 +245,20 @@
       "fundSecCode": "79314186",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 67707,
-        "dailyChange": -356,
-        "dailyPercent": -0.52
+        "date": "2026/09/15",
+        "value": 67013,
+        "dailyChange": -694,
+        "dailyPercent": -1.03
       },
       "monthComparison": {
-        "change": -3268,
-        "percent": -4.6,
+        "change": -3962,
+        "percent": -5.58,
         "referenceDate": "2026/08/14",
         "referenceValue": 70975
       },
       "yearComparison": {
-        "change": 19862,
-        "percent": 41.51,
+        "change": 19168,
+        "percent": 40.06,
         "referenceDate": "2025/09/12",
         "referenceValue": 47845
       },
@@ -278,20 +278,20 @@
       "fundSecCode": "8931111A",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 23141,
-        "dailyChange": -422,
-        "dailyPercent": -1.79
+        "date": "2026/09/15",
+        "value": 23225,
+        "dailyChange": 84,
+        "dailyPercent": 0.36
       },
       "monthComparison": {
-        "change": -1120,
-        "percent": -4.62,
+        "change": -1036,
+        "percent": -4.27,
         "referenceDate": "2026/08/14",
         "referenceValue": 24261
       },
       "yearComparison": {
-        "change": 2078,
-        "percent": 9.87,
+        "change": 2162,
+        "percent": 10.26,
         "referenceDate": "2025/09/12",
         "referenceValue": 21063
       },
@@ -311,20 +311,20 @@
       "fundSecCode": "89311174",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 23807,
-        "dailyChange": 344,
-        "dailyPercent": 1.47
+        "date": "2026/09/15",
+        "value": 23939,
+        "dailyChange": 132,
+        "dailyPercent": 0.55
       },
       "monthComparison": {
-        "change": -170,
-        "percent": -0.71,
+        "change": -38,
+        "percent": -0.16,
         "referenceDate": "2026/08/14",
         "referenceValue": 23977
       },
       "yearComparison": {
-        "change": -748,
-        "percent": -3.05,
+        "change": -616,
+        "percent": -2.51,
         "referenceDate": "2025/09/12",
         "referenceValue": 24555
       },
@@ -344,20 +344,20 @@
       "fundSecCode": "89311237",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 20539,
-        "dailyChange": -135,
-        "dailyPercent": -0.65
+        "date": "2026/09/15",
+        "value": 20487,
+        "dailyChange": -52,
+        "dailyPercent": -0.25
       },
       "monthComparison": {
-        "change": -1573,
-        "percent": -7.11,
+        "change": -1625,
+        "percent": -7.35,
         "referenceDate": "2026/08/14",
         "referenceValue": 22112
       },
       "yearComparison": {
-        "change": 6290,
-        "percent": 44.14,
+        "change": 6238,
+        "percent": 43.78,
         "referenceDate": "2025/09/12",
         "referenceValue": 14249
       },
@@ -377,20 +377,20 @@
       "fundSecCode": "89311239",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 9971,
-        "dailyChange": -131,
-        "dailyPercent": -1.3
+        "date": "2026/09/15",
+        "value": 10069,
+        "dailyChange": 98,
+        "dailyPercent": 0.98
       },
       "monthComparison": {
-        "change": -752,
-        "percent": -7.01,
+        "change": -654,
+        "percent": -6.1,
         "referenceDate": "2026/08/14",
         "referenceValue": 10723
       },
       "yearComparison": {
-        "change": -1067,
-        "percent": -9.67,
+        "change": -969,
+        "percent": -8.78,
         "referenceDate": "2025/09/12",
         "referenceValue": 11038
       },
@@ -410,20 +410,20 @@
       "fundSecCode": "8931A236",
       "status": "ok",
       "latest": {
-        "date": "2026/09/14",
-        "value": 24080,
-        "dailyChange": -136,
-        "dailyPercent": -0.56
+        "date": "2026/09/15",
+        "value": 23808,
+        "dailyChange": -272,
+        "dailyPercent": -1.13
       },
       "monthComparison": {
-        "change": -840,
-        "percent": -3.37,
+        "change": -1112,
+        "percent": -4.46,
         "referenceDate": "2026/08/14",
         "referenceValue": 24920
       },
       "yearComparison": {
-        "change": 4796,
-        "percent": 24.87,
+        "change": 4524,
+        "percent": 23.46,
         "referenceDate": "2025/09/12",
         "referenceValue": 19284
       },
