@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T08:39:15+09:00",
+  "generatedAt": "2026-11-15T19:59:53+09:00",
   "timezone": "Asia/Tokyo",
   "source": {
     "name": "SBI証券 投資信託 基準価額",
@@ -106,6 +106,39 @@
       }
     },
     {
+      "id": "cybersecurity-equity-unhedged",
+      "name": "サイバーセキュリティ株式オープン（為替ヘッジなし）",
+      "manager": "三菱UFJアセットマネジメント",
+      "fundSecCode": "03315177",
+      "status": "ok",
+      "latest": {
+        "date": "2026/11/13",
+        "value": 62576,
+        "dailyChange": -234,
+        "dailyPercent": -0.37
+      },
+      "monthComparison": {
+        "change": -8517,
+        "percent": -11.98,
+        "referenceDate": "2026/10/13",
+        "referenceValue": 71093
+      },
+      "yearComparison": {
+        "change": 13080,
+        "percent": 26.43,
+        "referenceDate": "2025/11/13",
+        "referenceValue": 49496
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=03315177",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=03315177"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=03315177"
+      }
+    },
+    {
       "id": "itrust-ecoinnovation",
       "name": "iTrustエコイノベーション",
       "manager": "ピクテ",
@@ -136,6 +169,39 @@
       "source": {
         "name": "SBI証券 投資信託 基準価額",
         "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=42311179"
+      }
+    },
+    {
+      "id": "itrust-security",
+      "name": "iTrustセキュリティ",
+      "manager": "ピクテ",
+      "fundSecCode": "4231118C",
+      "status": "ok",
+      "latest": {
+        "date": "2026/11/13",
+        "value": 34906,
+        "dailyChange": 102,
+        "dailyPercent": 0.29
+      },
+      "monthComparison": {
+        "change": -3006,
+        "percent": -7.93,
+        "referenceDate": "2026/10/13",
+        "referenceValue": 37912
+      },
+      "yearComparison": {
+        "change": 7122,
+        "percent": 25.63,
+        "referenceDate": "2025/11/13",
+        "referenceValue": 27784
+      },
+      "links": {
+        "detail": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=4231118C",
+        "chart": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=4231118C"
+      },
+      "source": {
+        "name": "SBI証券 投資信託 基準価額",
+        "url": "https://site0.sbisec.co.jp/marble/fund/history/standardprice.do?fund_sec_code=4231118C"
       }
     },
     {

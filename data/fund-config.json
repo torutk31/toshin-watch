@@ -18,10 +18,22 @@
     "fundSecCode": "0431C171"
   },
   {
+    "id": "cybersecurity-equity-unhedged",
+    "name": "サイバーセキュリティ株式オープン（為替ヘッジなし）",
+    "manager": "三菱UFJアセットマネジメント",
+    "fundSecCode": "03315177"
+  },
+  {
     "id": "itrust-ecoinnovation",
     "name": "iTrustエコイノベーション",
     "manager": "ピクテ",
     "fundSecCode": "42311179"
+  },
+  {
+    "id": "itrust-security",
+    "name": "iTrustセキュリティ",
+    "manager": "ピクテ",
+    "fundSecCode": "4231118C"
   },
   {
     "id": "tawara-focus-ai",
